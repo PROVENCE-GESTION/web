@@ -1,8 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
-  <rect width="640" height="360" fill="#fff"/>
-  <rect x="40" y="40" width="560" height="280" rx="14" fill="#e5f3ff" stroke="#007ACC"/>
-  <rect x="70" y="80" width="500" height="24" rx="6" fill="#c7e6ff"/>
-  <rect x="70" y="120" width="320" height="16" rx="6" fill="#aed9ff"/>
-  <rect x="70" y="150" width="440" height="12" rx="6" fill="#dbeafe"/>
-  <rect x="70" y="200" width="180" height="40" rx="8" fill="#4CAF50"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Palette :
+       Vert pastel :  #CFEFD9 / #86EFAC
+       Vert ligne   :  #47A975
+       Bleu pastel  :  #D4EBFF
+       Bleu ligne   :  #4A97C8
+  -->
+
+  <!-- Fond -->
+  <rect x="0" y="0" width="1200" height="600" fill="#F8FFFB" />
+
+  <!-- Nuage en haut -->
+  <g stroke="#47A975" stroke-width="6" fill="#CFEFD9">
+    <path d="
+      M 520 140
+      C 520 115 540 95 565 95
+      C 580 75 605 70 625 80
+      C 640 70 665 75 680 92
+      C 705 92 725 112 725 135
+      C 725 160 705 180 680 180
+      L 565 180
+      C 540 180 520 162 520 140 Z" />
+  </g>
+
+  <!-- Flèche du nuage vers la facture -->
+  <line x1="622" y1="180" x2="622" y2="235" stroke="#4A97C8" stroke-width="6" stroke-linecap="round" />
+  <polyline points="606,225 622,245 638,225" fill="none" stroke="#4A97C8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Facture (feuille centrale) -->
+  <rect x="440" y="230" width="365" height="270" rx="24"
+        fill="#FFFFFF" stroke="#47A975" stroke-width="6" />
+
+  <!-- Texte FACTURE -->
+  <text x="622" y="280"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="42"
+        fill="#4A97C8"
+        font-weight="600">
+    FACTURE
+  </text>
+
+  <!-- Ligne de titre -->
+  <line x1="470" y1="305" x2="775" y2="305"
+        stroke="#CFEFD9" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Tableau montant / lignes -->
+  <rect x="470" y="325" width="305" height="90" rx="10"
+        fill="#E9F9F0" stroke="#86EFAC" stroke-width="4" />
+  <line x1="470" y1="370" x2="775" y2="370"
+        stroke="#CFEFD9" stroke-width="4" />
+  <line x1="575" y1="325" x2="575" y2="415"
+        stroke="#CFEFD9" stroke-width="4" />
+
+  <!-- Lignes texte bas de facture -->
+  <line x1="470" y1="440" x2="720" y2="440"
+        stroke="#E0F2E8" stroke-width="6" stroke-linecap="round" />
+  <line x1="470" y1="465" x2="680" y2="465"
+        stroke="#E0F2E8" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Pastille validation -->
+  <circle cx="515" cy="485" r="35" fill="#CFEFD9" stroke="#47A975" stroke-width="5" />
+  <polyline points="500,485 510,495 530,475"
+            fill="none" stroke="#47A975" stroke-width="6"
+            stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Ordinateur derrière la facture (gauche) -->
+  <g opacity="0.85">
+    <rect x="320" y="280" width="220" height="160" rx="14"
+          fill="#E1F7EA" stroke="#47A975" stroke-width="4" />
+    <rect x="305" y="440" width="250" height="25" rx="10"
+          fill="#D5EEDF" stroke="#47A975" stroke-width="4" />
+  </g>
+
+  <!-- Bâtiments à droite -->
+  <g stroke="#4A97C8" stroke-width="5" fill="none">
+    <!-- Grand bâtiment -->
+    <rect x="800" y="270" width="140" height="200" rx="6" fill="#D4EBFF" />
+    <rect x="820" y="295" width="20" height="40" />
+    <rect x="850" y="295" width="20" height="40" />
+    <rect x="880" y="295" width="20" height="40" />
+    <rect x="820" y="345" width="20" height="40" />
+    <rect x="850" y="345" width="20" height="40" />
+    <rect x="880" y="345" width="20" height="40" />
+    <rect x="845" y="420" width="35" height="50" />
+
+    <!-- Petit bâtiment -->
+    <rect x="950" y="310" width="110" height="160" rx="6" fill="#E4F3FF" />
+    <rect x="970" y="335" width="25" height="30" />
+    <rect x="1015" y="335" width="25" height="30" />
+    <rect x="970" y="375" width="25" height="30" />
+    <rect x="1015" y="375" width="25" height="30" />
+    <rect x="995" y="420" width="30" height="50" />
+  </g>
+
 </svg>

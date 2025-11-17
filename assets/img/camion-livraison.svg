@@ -1,7 +1,165 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
-  <rect width="640" height="360" fill="#fff"/>
-  <rect x="120" y="160" width="380" height="90" rx="10" fill="#dbeafe" stroke="#007ACC"/>
-  <rect x="500" y="190" width="60" height="60" rx="6" fill="#c7e6ff" stroke="#007ACC"/>
-  <circle cx="200" cy="270" r="24" fill="#0ea5e9"/>
-  <circle cx="440" cy="270" r="24" fill="#0ea5e9"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380" viewBox="0 0 640 380">
+  <!-- Fond -->
+  <rect width="640" height="380" fill="#ffffff"/>
+
+  <defs>
+    <!-- Dégradés doux dans l'esprit pastel -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="100%" stop-color="#ECFDF3"/>
+    </linearGradient>
+
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E5E7EB"/>
+      <stop offset="100%" stop-color="#D1D5DB"/>
+    </linearGradient>
+
+    <style>
+      .building {
+        fill: #E0F2FE;
+        stroke: #60a5fa;
+        stroke-width: 2;
+        rx: 8;
+        ry: 8;
+      }
+      .window {
+        fill: #bfdbfe;
+      }
+      .pin {
+        fill: #4CAF50;
+      }
+      .pin-center {
+        fill: #ffffff;
+      }
+      .van-body {
+        fill: #60a5fa;
+        stroke: #1d4ed8;
+        stroke-width: 2;
+        stroke-linejoin: round;
+      }
+      .van-wheel {
+        fill: #111827;
+      }
+      .van-window {
+        fill: #eff6ff;
+      }
+      .speed-line {
+        stroke: #60a5fa;
+        stroke-width: 3;
+        stroke-linecap: round;
+      }
+      .road-line {
+        stroke: #9ca3af;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-dasharray: 8 8;
+      }
+      .clock {
+        fill: #ECFDF3;
+        stroke: #4CAF50;
+        stroke-width: 2;
+      }
+      .clock-hand {
+        stroke: #16a34a;
+        stroke-width: 2.2;
+        stroke-linecap: round;
+      }
+      .check {
+        fill: none;
+        stroke: #16a34a;
+        stroke-width: 2.4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+
+  <!-- Bandeau de fond central -->
+  <rect x="0" y="70" width="640" height="240" fill="url(#bgGrad)" opacity="0.7"/>
+
+  <!-- Route au premier plan -->
+  <rect x="0" y="250" width="640" height="80" fill="url(#roadGrad)"/>
+  <line x1="40" y1="290" x2="600" y2="290" class="road-line"/>
+
+  <!-- Bâtiment client gauche -->
+  <rect x="60" y="110" width="120" height="120" class="building"/>
+  <!-- Fenêtres -->
+  <rect x="75" y="125" width="20" height="20" class="window"/>
+  <rect x="105" y="125" width="20" height="20" class="window"/>
+  <rect x="135" y="125" width="20" height="20" class="window"/>
+
+  <rect x="75" y="155" width="20" height="20" class="window"/>
+  <rect x="105" y="155" width="20" height="20" class="window"/>
+  <rect x="135" y="155" width="20" height="20" class="window"/>
+
+  <rect x="105" y="190" width="30" height="40" fill="#93c5fd"/>
+
+  <!-- Pin de localisation gauche -->
+  <g transform="translate(120,95)">
+    <path class="pin" d="M0 0
+                         C -10 0 -18 8 -18 18
+                         C -18 28 -10 36 0 50
+                         C 10 36 18 28 18 18
+                         C 18 8 10 0 0 0 Z"/>
+    <circle cx="0" cy="18" r="6" class="pin-center"/>
+  </g>
+
+  <!-- Bâtiment client droit -->
+  <rect x="460" y="110" width="120" height="120" class="building"/>
+  <!-- Fenêtres -->
+  <rect x="475" y="125" width="20" height="20" class="window"/>
+  <rect x="505" y="125" width="20" height="20" class="window"/>
+  <rect x="535" y="125" width="20" height="20" class="window"/>
+
+  <rect x="475" y="155" width="20" height="20" class="window"/>
+  <rect x="505" y="155" width="20" height="20" class="window"/>
+  <rect x="535" y="155" width="20" height="20" class="window"/>
+
+  <rect x="505" y="190" width="30" height="40" fill="#93c5fd"/>
+
+  <!-- Pin de localisation droite -->
+  <g transform="translate(520,95)">
+    <path class="pin" d="M0 0
+                         C -10 0 -18 8 -18 18
+                         C -18 28 -10 36 0 50
+                         C 10 36 18 28 18 18
+                         C 18 8 10 0 0 0 Z"/>
+    <circle cx="0" cy="18" r="6" class="pin-center"/>
+  </g>
+
+  <!-- Camionnette de service (présence terrain + rapidité) -->
+  <!-- Lignes de vitesse -->
+  <line x1="250" y1="280" x2="280" y2="280" class="speed-line"/>
+  <line x1="250" y1="290" x2="275" y2="290" class="speed-line"/>
+  <line x1="250" y1="300" x2="270" y2="300" class="speed-line"/>
+
+  <!-- Corps de la camionnette -->
+  <g transform="translate(290,260)">
+    <rect x="0" y="20" width="120" height="40" class="van-body" rx="8" ry="8"/>
+    <rect x="60" y="0" width="45" height="40" class="van-body" rx="6" ry="6"/>
+
+    <!-- Fenêtre -->
+    <rect x="66" y="6" width="30" height="18" class="van-window" rx="3" ry="3"/>
+
+    <!-- Roues -->
+    <circle cx="30" cy="65" r="10" class="van-wheel"/>
+    <circle cx="95" cy="65" r="10" class="van-wheel"/>
+    <circle cx="30" cy="65" r="4" fill="#e5e7eb"/>
+    <circle cx="95" cy="65" r="4" fill="#e5e7eb"/>
+
+    <!-- Petit pictogramme sur le côté (éclair = rapidité) -->
+    <polygon points="20,30 32,25 28,36 38,32 26,45 30,35"
+             fill="#facc15"/>
+  </g>
+
+  <!-- Horloge + coche (idée de rapidité et fiabilité) -->
+  <g transform="translate(330,115)">
+    <circle cx="0" cy="0" r="26" class="clock"/>
+    <!-- Aiguilles -->
+    <line x1="0" y1="0" x2="0" y2="-14" class="clock-hand"/>
+    <line x1="0" y1="0" x2="10" y2="-4" class="clock-hand"/>
+    <!-- Coche -->
+    <path d="M -10 12 L -4 18 L 10 6" class="check"/>
+  </g>
+
 </svg>
