@@ -1,9 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
   <rect width="640" height="360" fill="#fff"/>
+
+  <!-- Rectangles -->
   <rect x="40" y="80" width="160" height="60" rx="10" fill="#4CAF50"/>
   <rect x="240" y="80" width="160" height="60" rx="10" fill="#60a5fa"/>
   <rect x="440" y="80" width="160" height="60" rx="10" fill="#f59e0b"/>
   <rect x="240" y="220" width="160" height="60" rx="10" fill="#6366f1"/>
+
+  <!-- Textes -->
+  <text x="120" y="115" font-family="Arial" font-size="20" fill="white" text-anchor="middle">
+    Emetteur
+  </text>
+
+  <text x="320" y="115" font-family="Arial" font-size="18" fill="white" text-anchor="middle">
+    Plateforme Agréée
+  </text>
+
+  <text x="520" y="115" font-family="Arial" font-size="20" fill="white" text-anchor="middle">
+    Destinataire
+  </text>
+
+  <!-- Administration Fiscale sur deux lignes -->
+  <text x="320" y="245" font-family="Arial" font-size="16" fill="white" text-anchor="middle">
+    <tspan x="320" dy="0">Administration</tspan>
+    <tspan x="320" dy="20">Fiscale</tspan>
+  </text>
+
+  <!-- Traits -->
   <path d="M200 110 L240 110" stroke="#111827" stroke-width="4"/>
   <path d="M400 110 L440 110" stroke="#111827" stroke-width="4"/>
   <path d="M320 140 L320 220" stroke="#111827" stroke-width="4"/>
