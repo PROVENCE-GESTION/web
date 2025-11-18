@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#ffffff"/>
+
+  <!-- Barre haut logo + titre -->
+  <rect x="0" y="0" width="640" height="80" fill="#ffffff"/>
+
+  <!-- Logo Provence Gestion -->
+  <circle cx="60" cy="38" r="20" fill="#4CAF50"/>
+  <rect x="40" y="58" width="40" height="4" fill="#2563EB"/>
+  <text x="100" y="34" font-size="14" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827" font-weight="600">
+    PROVENCE
+  </text>
+  <text x="100" y="52" font-size="14" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827" font-weight="600">
+    GESTION
+  </text>
+
+  <!-- Titre -->
+  <text x="240" y="46" font-size="22" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#1f2933" font-weight="700">
+    Échange de factures électroniques
+  </text>
+
+  <!-- Onglets -->
+  <rect x="20" y="80" width="280" height="30" fill="#f3f4f6" stroke="#e5e7eb"/>
+  <rect x="300" y="80" width="280" height="30" fill="#2563EB" stroke="#2563EB"/>
+  <text x="160" y="100" text-anchor="middle" font-size="12" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    Factures envoyées
+  </text>
+  <text x="440" y="100" text-anchor="middle" font-size="12" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#ffffff" font-weight="600">
+    Factures reçues
+  </text>
+
+  <!-- Zone filtres -->
+  <rect x="0" y="115" width="640" height="40" fill="#ffffff"/>
+  <!-- Recherche nom -->
+  <rect x="20" y="120" width="200" height="24" fill="#ffffff" stroke="#d1d5db" rx="3"/>
+  <text x="30" y="136" font-size="10" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#9ca3af">
+    Rechercher (nom, numéro…)
+  </text>
+  <!-- SIREN -->
+  <rect x="230" y="120" width="120" height="24" fill="#ffffff" stroke="#d1d5db" rx="3"/>
+  <text x="238" y="136" font-size="10" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#9ca3af">
+    SIREN vendeur
+  </text>
+  <!-- État -->
+  <rect x="360" y="120" width="120" height="24" fill="#ffffff" stroke="#d1d5db" rx="3"/>
+  <text x="368" y="136" font-size="10" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#9ca3af">
+    -- État --
+  </text>
+  <!-- Bouton Rechercher -->
+  <rect x="490" y="120" width="120" height="24" fill="#2563EB" rx="3"/>
+  <text x="550" y="137" text-anchor="middle" font-size="11" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#ffffff">
+    Rechercher
+  </text>
+
+  <!-- Tableau -->
+  <rect x="20" y="150" width="600" height="210" fill="#ffffff" stroke="#e5e7eb"/>
+
+  <!-- En-tête tableau -->
+  <rect x="20" y="150" width="600" height="24" fill="#f3f4f6"/>
+  <text x="30" y="166" font-size="11" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827" font-weight="600">ID</text>
+  <text x="162" y="166" font-size="11" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827" font-weight="600">Vendeur</text>
+  <text x="320" y="166" font-size="11" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827" font-weight="600">Montant</text>
+  <text x="370" y="166" font-size="11" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827" font-weight="600">Type</text>
+  <text x="430" y="166" font-size="11" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827" font-weight="600">État</text>
+  <text x="505" y="166" font-size="11" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827" font-weight="600">Date</text>
+  <text x="578" y="166" font-size="11" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827" font-weight="600">Action</text>
+
+  <!-- Lignes : hauteur 24, baseY = rowY + 12 -->
+  <!-- Ligne 1 -->
+  <rect x="20" y="174" width="600" height="24" fill="#ffffff"/>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    <tspan x="30" y="186">01999509-9beb-728e-a</tspan>
+    <tspan x="30" y="196">69c-101b6fb0c19c</tspan>
+  </text>
+  <text x="162" y="186" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    CABINET SIRAGUSA
+  </text>
+  <text x="320" y="186" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    452,40 €
+  </text>
+  <text x="370" y="186" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#6b7280">
+    Facture
+  </text>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    <tspan x="505" y="186">29/09/2025</tspan>
+    <tspan x="505" y="196">12:34</tspan>
+  </text>
+  <rect x="565" y="178" width="45" height="18" rx="3" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="588" y="191" text-anchor="middle" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    Détails
+  </text>
+
+  <!-- Ligne 2 -->
+  <rect x="20" y="198" width="600" height="24" fill="#f9fafb"/>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    <tspan x="30" y="210">01998180-f0e5-72e8-940f-</tspan>
+    <tspan x="30" y="220">fda636fee287</tspan>
+  </text>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    <tspan x="162" y="210">DEPOT VENTE DE LA</tspan>
+    <tspan x="162" y="220">POMPIGNANE</tspan>
+  </text>
+  <text x="320" y="210" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    1 000,80 €
+  </text>
+  <text x="370" y="210" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#6b7280">
+    Facture
+  </text>
+  <!-- Badge EN TRAITEMENT -->
+  <rect x="412" y="202" width="90" height="16" rx="8" fill="#facc15" opacity="0.3"/>
+  <text x="457" y="214" text-anchor="middle" font-size="8" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#92400e" font-weight="600">
+    EN TRAITEMENT
+  </text>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    <tspan x="505" y="210">25/09/2025</tspan>
+    <tspan x="505" y="220">17:32</tspan>
+  </text>
+  <rect x="565" y="202" width="45" height="18" rx="3" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="588" y="215" text-anchor="middle" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    Détails
+  </text>
+
+  <!-- Ligne 3 -->
+  <rect x="20" y="222" width="600" height="24" fill="#ffffff"/>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    <tspan x="30" y="234">01997fd3-a1f0-7564-83f4-</tspan>
+    <tspan x="30" y="244">c96ddea50a40</tspan>
+  </text>
+  <text x="162" y="234" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    DALKIA FROID SOLUTIONS
+  </text>
+  <text x="320" y="234" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    480,00 €
+  </text>
+  <text x="370" y="234" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#6b7280">
+    Facture
+  </text>
+  <!-- Badge CONTESTÉE -->
+  <rect x="418" y="226" width="80" height="16" rx="8" fill="#f87171" opacity="0.25"/>
+  <text x="458" y="238" text-anchor="middle" font-size="8" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#b91c1c" font-weight="600">
+    CONTESTÉE
+  </text>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    <tspan x="505" y="234">25/09/2025</tspan>
+    <tspan x="505" y="244">09:43</tspan>
+  </text>
+  <rect x="565" y="226" width="45" height="18" rx="3" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="588" y="239" text-anchor="middle" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    Détails
+  </text>
+
+  <!-- Ligne 4 -->
+  <rect x="20" y="246" width="600" height="24" fill="#f9fafb"/>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    <tspan x="30" y="258">01997b2c-7a26-76ce-b3ea-</tspan>
+    <tspan x="30" y="268">8b49845a5d4a</tspan>
+  </text>
+  <text x="162" y="258" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    HPC PARTNERS
+  </text>
+  <text x="320" y="258" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    181,20 €
+  </text>
+  <text x="370" y="258" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#6b7280">
+    Facture
+  </text>
+  <!-- Badge APPROUVÉE -->
+  <rect x="418" y="250" width="80" height="16" rx="8" fill="#4ade80" opacity="0.25"/>
+  <text x="458" y="262" text-anchor="middle" font-size="8" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#166534" font-weight="600">
+    APPROUVÉE
+  </text>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    <tspan x="505" y="258">24/09/2025</tspan>
+    <tspan x="505" y="268">12:02</tspan>
+  </text>
+  <rect x="565" y="250" width="45" height="18" rx="3" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="588" y="263" text-anchor="middle" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    Détails
+  </text>
+
+  <!-- Ligne 5 -->
+  <rect x="20" y="270" width="600" height="24" fill="#ffffff"/>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    <tspan x="30" y="282">01997245-1bbe-75fa-a73a-</tspan>
+    <tspan x="30" y="292">900380e5b1d0</tspan>
+  </text>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    <tspan x="162" y="282">GROUPE ETUDE INSERTION</tspan>
+    <tspan x="162" y="292">SOCIAL TRISONIQUE</tspan>
+  </text>
+  <text x="320" y="282" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    625,20 €
+  </text>
+  <text x="370" y="282" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#6b7280">
+    Facture
+  </text>
+  <!-- Badge APPROUVÉE -->
+  <rect x="418" y="274" width="80" height="16" rx="8" fill="#4ade80" opacity="0.25"/>
+  <text x="458" y="286" text-anchor="middle" font-size="8" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#166534" font-weight="600">
+    APPROUVÉE
+  </text>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    <tspan x="505" y="282">22/09/2025</tspan>
+    <tspan x="505" y="292">18:32</tspan>
+  </text>
+  <rect x="565" y="274" width="45" height="18" rx="3" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="588" y="287" text-anchor="middle" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    Détails
+  </text>
+
+  <!-- Ligne 6 -->
+  <rect x="20" y="294" width="600" height="24" fill="#f9fafb"/>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    <tspan x="30" y="306">01995df1-d07d-73ac-8fea-</tspan>
+    <tspan x="30" y="316">0b63dae9d614</tspan>
+  </text>
+  <text x="162" y="306" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    POLE EMPLOI
+  </text>
+  <text x="320" y="306" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    274,80 €
+  </text>
+  <text x="370" y="306" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#6b7280">
+    Facture
+  </text>
+  <!-- Badge CONTESTÉE -->
+  <rect x="418" y="298" width="80" height="16" rx="8" fill="#f87171" opacity="0.25"/>
+  <text x="458" y="310" text-anchor="middle" font-size="8" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#b91c1c" font-weight="600">
+    CONTESTÉE
+  </text>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    <tspan x="505" y="306">18/09/2025</tspan>
+    <tspan x="505" y="316">19:49</tspan>
+  </text>
+  <rect x="565" y="298" width="45" height="18" rx="3" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="588" y="311" text-anchor="middle" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    Détails
+  </text>
+
+  <!-- Ligne 7 -->
+  <rect x="20" y="318" width="600" height="24" fill="#ffffff"/>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    <tspan x="30" y="330">01967046-0ba1-740d-9fdd-</tspan>
+    <tspan x="30" y="340">5a93358fbd94</tspan>
+  </text>
+  <text x="162" y="330" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    LA BRIOCHE DOREE
+  </text>
+  <text x="320" y="330" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    967,20 €
+  </text>
+  <text x="370" y="330" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#6b7280">
+    Facture
+  </text>
+  <text font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#111827">
+    <tspan x="505" y="330">26/05/2025</tspan>
+    <tspan x="505" y="340">17:55</tspan>
+  </text>
+  <rect x="565" y="322" width="45" height="18" rx="3" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="588" y="335" text-anchor="middle" font-size="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    Détails
+  </text>
+
+  <!-- Pagination -->
+  <rect x="295" y="334" width="26" height="18" rx="2" fill="#2563EB"/>
+  <text x="308" y="347" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#ffffff">
+    1
+  </text>
+  <rect x="325" y="334" width="26" height="18" rx="2" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="338" y="347" text-anchor="middle" font-size="10" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#374151">
+    2
+  </text>
+</svg>
