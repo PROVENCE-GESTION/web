@@ -1,0 +1,24 @@
+<script>
+    // Liste des URLs canoniques du site
+    const cleanUrls = {
+        "/a-propos/": "/a-propos",
+        "/a-propos.html": "/a-propos",
+        "/solutions/": "/solutions",
+        "/solutions.html": "/solutions",
+        "/facturation-electronique/": "/facturation-electronique",
+        "/facturation-electronique.html": "/facturation-electronique",
+        "/contact/": "/contact",
+        "/contact.html": "/contact",
+        "/references/": "/references",
+        "/references.html": "/references",
+        "/index.html": "/",
+        "/index": "/"
+    };
+
+    const path = window.location.pathname;
+
+    // Si l'URL erronée fait partie des variantes, on redirige proprement
+    if (cleanUrls[path]) {
+        window.location.replace(cleanUrls[path]);
+    }
+</script>
